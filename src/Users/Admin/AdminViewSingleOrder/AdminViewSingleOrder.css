@@ -1,0 +1,120 @@
+body {
+  /* background: linear-gradient(45deg, #a700ff, #4d19db); */
+  background: #ffffff;
+}
+.userButton {
+  border-radius: 10px;
+  border: none;
+  color: white;
+  background: linear-gradient(45deg, #a700ff, #4d19db);
+  box-shadow: 4px 4px 4px rgb(128, 125, 125);
+  width: fit-content;
+  height: fit-content;
+}
+.userChatButton {
+  border-radius: 10px;
+  border: none;
+  color: white;
+  background: linear-gradient(45deg, #a700ff, #4d19db);
+  box-shadow: 4px 4px 4px rgb(128, 125, 125);
+  width: fit-content;
+  height: fit-content;
+  padding: 10px;
+}
+.userButton-showtouser {
+  border-radius: 10px;
+  border: none;
+  color: white;
+  background: linear-gradient(45deg, #a700ff, #4d19db);
+  box-shadow: 4px 4px 4px rgb(128, 125, 125);
+  width: fit-content;
+  height: fit-content;
+  padding: 2%;
+}
+
+.chatClose i {
+  color: black;
+}
+.chatClose {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: none;
+  float: right;
+  margin: 7px;
+  cursor: pointer;
+}
+
+.crd {
+  background-color: white;
+  width: 100%;
+  box-shadow: 6px 7px 15px rgb(128, 125, 125);
+  border-radius: 5px;
+  margin-bottom: 30px;
+  margin-top: 50px;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+#status {
+  color: white;
+}
+.crd .nav-item {
+  width: 25%;
+}
+.crd .tab-content {
+  margin-top: 50px;
+  margin-bottom: 30px;
+  min-height: 100px;
+}
+.crd .tab-content .tab-pane {
+  width: 100%;
+}
+.stts input {
+  text-align: center;
+  width: 50%;
+}
+.stts {
+  width: 100%;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.crd .tab-content input,
+.crd .tab-content select {
+  padding: 2%;
+  height: fit-content;
+  font-size: 18px;
+  font-weight: 400;
+}
+.container-order {
+  max-width: 80% !important;
+  margin-left: 10%;
+}
+
+.stts .rowdiv{
+  display: flexbox;
+  /* align-items: center;
+  justify-content: center; */
+  margin-top: 4%;
+  min-width: fit-content;
+}
+.stts .rowdiv .coldiv{
+  /* margin-left: 10px; */
+  float: left;
+  font-size: large;
+  font-weight: 600;
+}
+.stts .rowdiv .coldiv input{
+  width: 150%;
+  border-radius: 6px;
+  border: 1px solid #ced4da;
+  padding: 5%;
+}
+.stts .rowdiv .coldiv select{
+  width: 150%;
+  border-radius: 6px;
+  border: 1px solid #ced4da;
+  padding: 5%;
+}

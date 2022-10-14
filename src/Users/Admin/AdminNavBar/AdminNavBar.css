@@ -1,0 +1,252 @@
+@import url(//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css);
+body {
+  overflow-x: hidden;
+}
+.fa-2x {
+  font-size: 2rem;
+}
+
+.fa {
+  position: relative;
+  display: table-cell;
+  width: 60px;
+  height: 36px;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 20px;
+}
+
+.main-menu:hover,
+nav.main-menu.expanded {
+  width: 250px;
+  /* overflow: visible; */
+}
+
+.main-menu {
+  background: #212121;
+  /* border-right: 0.2px solid #e5e5e5; */
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  height: 100%;
+  left: 0;
+  width: 60px;
+  overflow: hidden;
+  -webkit-transition: width 0.05s linear;
+  transition: width 0.05s linear;
+  /* -webkit-transform: translateZ(0) scale(1, 1); */
+  z-index: 1000;
+}
+
+.main-menu > ul {
+  margin: 7px 0;
+}
+
+.main-menu li {
+  position: relative;
+  display: block;
+  width: 250px;
+  margin-top: 1rem;
+}
+
+.fa {
+  color: white;
+}
+.nav-text {
+  color: white;
+}
+.main-menu li > a {
+  position: relative;
+  display: table;
+  border-collapse: collapse;
+  border-spacing: 0;
+  color: white;
+  font-family: arial;
+  font-size: 18px;
+  text-decoration: none;
+  /* -webkit-transform: translateZ(0) scale(1, 1); */
+  -webkit-transition: all 0.1s linear;
+  transition: all 0.1s linear;
+}
+
+.main-menu .nav-icon {
+  position: relative;
+  display: table-cell;
+  width: 60px;
+  height: 56px;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 18px;
+}
+
+.main-menu .nav-text {
+  position: relative;
+  display: table-cell;
+  vertical-align: middle;
+  width: 190px;
+  font-family: "Titillium Web", sans-serif;
+}
+
+/* .main-menu>ul.logout {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+} */
+
+.no-touch .scrollable.hover {
+  overflow-y: hidden;
+}
+
+.no-touch .scrollable.hover:hover {
+  /* overflow-y: auto; */
+  overflow: visible;
+}
+
+a:hover,
+a:focus {
+  text-decoration: none;
+}
+
+nav {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+
+nav ul,
+nav li {
+  outline: 0;
+  margin: 0;
+  padding: 0;
+}
+
+.main-menu li:hover > a,
+nav.main-menu li.active > a,
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus,
+.dropdown-menu > .active > a,
+.dropdown-menu > .active > a:hover,
+.dropdown-menu > .active > a:focus,
+.no-touch .dashboard-page nav.dashboard-menu ul li:hover a,
+.dashboard-page nav.dashboard-menu ul li.active a {
+  color: #fff;
+  background-color: #5fa2db;
+}
+
+.area {
+  width: 100%;
+  height: 100%;
+  /* overflow-y: scroll; */
+}
+
+@font-face {
+  font-family: "Titillium Web";
+  font-style: normal;
+  font-weight: 300;
+  src: local("Titillium WebLight"), local("TitilliumWeb-Light"),
+    url(http://themes.googleusercontent.com/static/fonts/titilliumweb/v2/anMUvcNT0H1YN4FII8wpr24bNCNEoFTpS2BTjF6FB5E.woff)
+      format("woff");
+}
+
+#content {
+  width: 100%;
+  position: relative;
+  margin-right: 0;
+}
+.dashboard {
+  margin-left: 4rem;
+  width: 100%;
+  height: fit-content;
+  position: relative;
+  margin-right: 0;
+  padding: 2rem;
+  min-height: 100vh;
+}
+
+.PageHeader {
+  padding: 2rem;
+}
+.PageHeader h1 {
+  font-weight: bolder;
+}
+
+/* DashBoard Home CSS */
+.CardsContainer {
+  display: flex;
+}
+
+.CardsContainer .Card h3 {
+  padding: 28px 2px 24px 30px;
+  font-weight: bolder;
+}
+.CardsContainer .Card p {
+  color: #ffffff !important;
+}
+.CardsContainer .Card {
+  background-color: #6c6c6c !important;
+  color: rgb(255, 255, 255) !important;
+  cursor: pointer;
+  float: left;
+  margin: 1rem;
+  height: 18vh;
+  width: 16rem;
+  border-radius: 20px;
+  padding: 0rem 0.5rem;
+  box-shadow: 0 20px 20px rgba(0, 0, 0, 0.2), 0 0 50px rgba(0, 0, 0, 0.2);
+}
+
+.CardsContainer :hover {
+  transform: scale(1.05);
+  transition: 200ms linear;
+}
+.Card :hover {
+  transform: none;
+  transition: none;
+}
+
+@media screen and (max-device-width: 756px) {
+  .CardsContainer {
+    display: block;
+  }
+}
+
+/* All Orders Inputs CSS */
+.AllOrdersInput {
+  box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.2);
+  margin: 2rem;
+  width: 18vw;
+  padding: 2px;
+  font-size: 20px;
+  color: black;
+  border-radius: 8px;
+  border: none;
+}
+.AllOrdersButton {
+  font-weight: bolder;
+  margin-right: 10px;
+  padding: 4px;
+  width: fit-content;
+  font-size: 20px;
+  color: black;
+  border-radius: 8px;
+  border: none;
+  box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.2);
+  background-color: white;
+}
+.AllOrdersDownloadCSVButton {
+  font-weight: bolder;
+  margin-left: 4rem;
+  padding: 4px;
+  width: fit-content;
+  font-size: 20px;
+  color: black;
+  border-radius: 8px;
+  border: none;
+  box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.2);
+  background-color: white;
+}
+.AllOrdersDownloadCSVButton:hover {
+  color: black;
+}

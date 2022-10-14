@@ -1,0 +1,154 @@
+#form-input-tag {
+    float: left;
+    font-weight: 600;
+}
+
+.UserFormContainer {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.DataForm {
+    width: 54%;
+    border: 2px solid #c2c2c2;
+    border-radius: 10px;
+    margin: 2rem;
+    padding: 1rem;
+    color: black;
+    background: #FFFFFF;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+.OrderForm {
+    width: 40%;
+    border: 2px solid #c2c2c2;
+    border-radius: 10px;
+    margin: 2rem;
+    padding: 1rem;
+    color: black;
+    background: #FFFFFF;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+.DataForm form .HorizontalAlignmentContainer {
+    width: 100%;
+    display: block;
+}
+
+.DataForm form .HorizontalAlignmentContainer div {
+    width: 50%;
+    float: left;
+}
+
+.FileUpload {
+    border: 1px solid #c2c2c2;
+}
+
+.OrderForm form input, .OrderForm select, .DataForm form input, .DataForm select {
+    padding: 10px;
+    margin: 10px;
+    font-weight: 600;
+    font-size: medium;
+    width: 90%;
+    align-content: flex-start;
+    background: #f2f2f2;
+    border: 1px solid #c2c2c2;
+    border-radius: 10px;
+    /* -ms-box-sizing:content-box;
+    -moz-box-sizing:content-box;
+    -webkit-box-sizing:content-box; 
+    box-sizing:content-box; */
+}
+
+.OrderForm textarea {
+    padding: 10px;
+    margin: 10px;
+    font-weight: 600;
+    font-size: larger;
+    width: 90%;
+    align-content: flex-start;
+    resize: vertical;
+    border: 1px solid #c2c2c2;
+    border-radius: 10px;
+}
+
+.OrderForm span, .DataForm span {
+    padding: 5px;
+    font-weight: bolder;
+    font-size: larger;
+    width: 100%;
+    align-content: flex-start;
+}
+
+.OrderForm .Button, .DataForm .Button {
+    text-align: center;
+}
+
+.OrderForm .Button button, .DataForm .Button button {
+    text-transform: uppercase;
+    outline: 0;
+    background: #4CAF50;
+    border: 0;
+    padding: 15px;
+    color: #FFFFFF;
+    background: linear-gradient(45deg, #a700ff, #4d19db);
+    font-size: 14px;
+    border-radius: 10px;
+    -webkit-transition: all 0.3 ease;
+    transition: all 0.3 ease;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.required {
+    color: red;
+    font-size: 10px;
+    font-weight: 200;
+}
+
+@media screen and (max-device-width:767px) {
+    .DataForm form .HorizontalAlignmentContainer div {
+        width: 100%;
+        float: none;
+    }
+    .DataForm {
+        width: 60%;
+        border: 2px solid #c2c2c2;
+        border-radius: 10px;
+        padding: 1rem;
+        color: black;
+        background: #FFFFFF;
+    }
+    .OrderForm {
+        width: 70%;
+        border: 2px solid #c2c2c2;
+        border-radius: 10px;
+        padding: 1rem;
+        color: black;
+        background: #FFFFFF;
+    }
+}
+
+@media screen and (max-device-width:360px) {
+    .DataForm form .HorizontalAlignmentContainer div {
+        width: 100%;
+        float: none;
+    }
+    .DataForm {
+        width: 100%;
+        border: 2px solid #c2c2c2;
+        border-radius: 10px;
+        padding: 1rem;
+        color: black;
+        background: #FFFFFF;
+    }
+    .OrderForm {
+        width: 100%;
+        border: 2px solid #c2c2c2;
+        border-radius: 10px;
+        padding: 1rem;
+        color: black;
+        background: #FFFFFF;
+    }
+}
