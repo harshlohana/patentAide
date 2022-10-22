@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.9f59b3d0.css",
-    "main.js": "/static/js/main.e7e03ced.js",
+    "main.css": "/static/css/main.983b57cb.css",
+    "main.js": "/static/js/main.0436b0ee.js",
     "static/js/787.ff25aa25.chunk.js": "/static/js/787.ff25aa25.chunk.js",
     "static/media/fontawesome-webfont.svg?v=4.7.0": "/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
+    "static/media/shoeib-abolhassani-ukDEbYnyDsU-unsplash.jpg": "/static/media/shoeib-abolhassani-ukDEbYnyDsU-unsplash.5645b57101fc15888508.jpg",
     "static/media/fontawesome-webfont.eot": "/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
     "static/media/fontawesome-webfont.ttf?v=4.7.0": "/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
     "static/media/fontawesome-webfont.woff?v=4.7.0": "/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
     "static/media/fontawesome-webfont.woff2?v=4.7.0": "/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
     "static/media/quote_image_01.jpg": "/static/media/quote_image_01.1090887ecbbe937d8a07.jpg",
     "static/media/[GetPaidStock.com]-62fbfa2d4dbff.jpg": "/static/media/[GetPaidStock.com]-62fbfa2d4dbff.7dd450c605ce6bfbbc21.jpg",
-    "static/media/item_img_03.jpg": "/static/media/item_img_03.eec96feefa0dbebb4c2d.jpg",
     "index.html": "/index.html",
-    "main.9f59b3d0.css.map": "/static/css/main.9f59b3d0.css.map",
-    "main.e7e03ced.js.map": "/static/js/main.e7e03ced.js.map",
+    "main.983b57cb.css.map": "/static/css/main.983b57cb.css.map",
+    "main.0436b0ee.js.map": "/static/js/main.0436b0ee.js.map",
     "787.ff25aa25.chunk.js.map": "/static/js/787.ff25aa25.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9f59b3d0.css",
-    "static/js/main.e7e03ced.js"
+    "static/css/main.983b57cb.css",
+    "static/js/main.0436b0ee.js"
   ]
 }
